@@ -1,0 +1,23 @@
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+.third-section {
+  background-image: url(./images/bg-section-top-desktop-1.svg);
+  background-repeat: no-repeat;
+}
+
+.container-footer {
+  background-image: url(./images/bg-footer-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=index.css.map */
