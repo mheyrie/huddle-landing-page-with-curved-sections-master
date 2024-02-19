@@ -1,7 +1,60 @@
-.container{
-    justify-content: center;
-    text-align: center;
+// General Styling
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    
 }
+
+h1,h2,h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    
+}
+
+.btn{
+    color: #fff;
+    background-color:hsl(322, 100%, 66%);
+    border-radius: 30px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+
+
+.container{
+
+    // Nav Styling
+    .container-top{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+
+    .try-free{
+        background-color: white;
+        color: hsl(321, 100%, 78%);
+        border: 1px solid hsl(321, 100%, 78%);
+        width: 90px;
+        height: 30px;
+        
+    }
+  
+}
+    // Main tag styling
+
+    // First section styling
+
+}
+
+
+
 
 .third-section{
     background-image: url(./images/bg-section-top-desktop-1.svg);
