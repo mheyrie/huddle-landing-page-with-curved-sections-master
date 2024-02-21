@@ -35,16 +35,27 @@ h1, h2, h3, h4, h5 {
   height: 30px;
 }
 .container .first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 20px;
   text-align: center;
 }
-.container .first-section .top-paragraph {
-  max-width: 30em;
+.container .first-section .first-section-text .top-heading {
+  font-size: xx-large;
+}
+.container .first-section .first-section-text .top-paragraph {
+  max-width: 40%;
   margin: 0 auto;
 }
-.container .first-section .top-others-btn {
-  margin: 40px;
+.container .first-section .first-section-text .top-others-btn {
+  margin: 50px;
+  font-size: 10px;
+  font-weight: bold;
 }
 .container .first-section .first-section-img img {
+  max-width: 100%;
   width: 600px;
 }
 
