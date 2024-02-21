@@ -34,6 +34,19 @@ h1, h2, h3, h4, h5 {
   width: 90px;
   height: 30px;
 }
+.container .first-section {
+  text-align: center;
+}
+.container .first-section .top-paragraph {
+  max-width: 30em;
+  margin: 0 auto;
+}
+.container .first-section .top-others-btn {
+  margin: 40px;
+}
+.container .first-section .first-section-img img {
+  width: 600px;
+}
 
 .third-section {
   background-image: url(./images/bg-section-top-desktop-1.svg);

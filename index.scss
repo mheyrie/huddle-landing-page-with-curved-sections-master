@@ -50,6 +50,22 @@ h1,h2,h3,h4,h5{
     // Main tag styling
 
     // First section styling
+    .first-section{
+        text-align: center;
+
+        .top-paragraph{
+            max-width: 30em;
+            margin: 0 auto;
+        }
+
+        .top-others-btn{
+            margin: 40px;
+        }
+
+        .first-section-img img{
+            width: 600px;
+        }
+    }
 
 }
 
