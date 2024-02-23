@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5{
     font-size: 12px;
 }
 
+p{
+    text-align: center;
+}
+
 
 
 
@@ -46,7 +50,7 @@ h1,h2,h3,h4,h5{
         
     }
   
-}
+    }
     // Main tag styling
 
     // First section styling
@@ -61,13 +65,11 @@ h1,h2,h3,h4,h5{
         .first-section-text{
                 .top-heading{
                     font-size: xx-large;
-                    
                 }
 
                 .top-paragraph{
                     max-width: 40%;
                     margin: 0 auto;
-                    
                 }
 
                 .top-others-btn{
@@ -80,36 +82,74 @@ h1,h2,h3,h4,h5{
         .first-section-img img{
             max-width: 100%;
             width: 600px;
-            
-          
         }
     }
 
-    
-   
-}
+    //Second Section styling
+   .second-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px auto;
 
+        h1{
+            margin: -20px 0;
+            font-size: 65px;
+            
+        }
+        
 
+        .second-section-first{
+            margin-right: 100px;            
+            width: 250px;
+            
+            p{
+                text-align: start;
+            }
+        }
 
+        .second-section-second{
+            width: 200px;
 
-.third-section{
+            .numbers-text{
+                text-align: center;
+            }
+        }
+        
+   }
+
+   //Third section styling
+   .third-section{
     background-image: url(./images/bg-section-top-desktop-1.svg);
     background-repeat: no-repeat;
-}
+    }
 
 
-
-
-
-.container-footer{
+    //Footer styling
+   .container-footer{
     background-image: url(./images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
-}
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+
+        .attribution { 
+            font-size: 11px; 
+            text-align: center; 
+        }
+
+        .attribution a { 
+            color: hsl(228, 45%, 44%); 
+        }
+    }
+
+
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+
+
+
+
+
+
+
+
+
+
