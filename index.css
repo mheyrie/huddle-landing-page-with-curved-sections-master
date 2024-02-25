@@ -20,6 +20,11 @@ h1, h2, h3, h4, h5 {
   font-size: 12px;
 }
 
+.img {
+  padding-top: 40px;
+  width: 100%;
+}
+
 .container {
   /* Sixth Section styling*/
 }
@@ -83,10 +88,6 @@ h1, h2, h3, h4, h5 {
 .container .second-section .second-section-second .numbers-text {
   text-align: center;
 }
-.container .third-img {
-  padding-top: 40px;
-  width: 100%;
-}
 .container .third-section {
   background-color: #f6fbff;
   display: flex;
@@ -132,17 +133,15 @@ h1, h2, h3, h4, h5 {
   padding-right: 300px;
 }
 .container .fifth-section {
-  background: url(./images/bg-section-top-desktop-2.svg);
-  background-repeat: repeat;
-  background-size: contain;
-  background-position: center;
+  background-color: #f6fbff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 50px auto;
   padding: 50px;
-  height: 200px;
+  padding-top: 0;
+  margin-top: -7px;
 }
 .container .fifth-section .fifth-section-text {
   padding-right: 20px;
@@ -162,18 +161,14 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 90px;
 }
 .container .container-footer {
-  border: 2px red dashed;
-  background-image: url(./images/bg-footer-top-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: 130vw 90vh;
-  background-position: center;
+  background-color: #00252e;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-top: -6px;
   padding: 50px;
-  height: 600px;
+  padding-top: 0;
 }
 .container .container-footer .attribution {
   font-size: 11px;

@@ -22,6 +22,11 @@ h1,h2,h3,h4,h5{
     font-size: 12px;
 }
 
+.img{
+    padding-top: 40px;
+    width: 100%;
+   }
+
 .container{
 
     // Nav Styling
@@ -104,13 +109,7 @@ h1,h2,h3,h4,h5{
 
    
    //Third section styling
-   .third-img{
-    padding-top: 40px;
-    width: 100%;
-    // z-index: 1;
-   }
-   
-   .third-section{
+    .third-section{
         background-color: #f6fbff;
         display: flex;
         flex-direction: row;
@@ -120,9 +119,6 @@ h1,h2,h3,h4,h5{
         padding: 50px;
         padding-top: 0;
         margin-top: -7px;
-        
-        
-        // height: 500px;
 
         .third-section-text{
             padding-right: 20px;
@@ -171,58 +167,51 @@ h1,h2,h3,h4,h5{
 
     //Fifth section styling
    .fifth-section{
-    background: url(./images/bg-section-top-desktop-2.svg);
-    background-repeat: repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    padding: 50px;
-    height: 200px;
+        background-color: #f6fbff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        padding: 50px;
+        padding-top: 0;
+        margin-top: -7px;
 
-    .fifth-section-text{
-        padding-right: 20px;
+        .fifth-section-text{
+            padding-right: 20px;
 
-        .fifth-section-heading{
-            margin-bottom: 0;
+            .fifth-section-heading{
+                margin-bottom: 0;
+            }
+
+            .fifth-section-paragraph{
+                margin: 0;
+                max-width: 40%;
+            }
         }
 
-        .fifth-section-paragraph{
-            margin: 0;
-            max-width: 40%;
-        }
-    }
-
-        .fifth-section-img  img{
-            width: 200px;
-        }
+            .fifth-section-img  img{
+                width: 200px;
+            }
     }
 
     /* Sixth Section styling*/
     .sixth-section{
         text-align: center;
         padding-bottom: 90px;
-        // display: flex;
-        // flex-direction: column;
     }
 
     //Footer styling
    .container-footer{
-        border: 2px red dashed;
-        background-image: url(./images/bg-footer-top-mobile.svg);
-        background-repeat: no-repeat;
-        background-size: 130vw 90vh;
-        background-position: center;
+        background-color: #00252e;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin-top: -6px;
         padding: 50px;
-        height: 600px;
+        padding-top: 0;
+        
         
 
         .attribution { 
