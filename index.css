@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5 {
   font-size: xx-large;
 }
 .container .first-section .first-section-text .top-paragraph {
-  max-width: 40%;
+  width: 40%;
   margin: 0 auto;
 }
 .container .first-section .first-section-text .top-others-btn {
@@ -71,6 +71,9 @@ h1, h2, h3, h4, h5 {
   flex-direction: row;
   justify-content: center;
 }
+.container .second-section img {
+  width: 20px;
+}
 .container .second-section h1 {
   margin: -20px 0;
   font-size: 65px;
@@ -81,12 +84,14 @@ h1, h2, h3, h4, h5 {
 }
 .container .second-section .second-section-first p {
   text-align: start;
+  font-weight: 100;
 }
 .container .second-section .second-section-second {
   width: 200px;
 }
 .container .second-section .second-section-second .numbers-text {
   text-align: center;
+  font-weight: 100;
 }
 .container .third-section {
   background-color: #f6fbff;
@@ -98,19 +103,26 @@ h1, h2, h3, h4, h5 {
   padding: 50px;
   padding-top: 0;
   margin-top: -7px;
+  margin-bottom: -7px;
 }
 .container .third-section .third-section-text {
   padding-right: 20px;
+  margin: 0 50px;
 }
 .container .third-section .third-section-text .third-section-heading {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .container .third-section .third-section-text .third-section-paragraph {
   margin: 0;
-  max-width: 40%;
+  max-width: 90%;
 }
 .container .third-section .third-section-img img {
-  width: 200px;
+  width: 300px;
+  margin: 0 50px;
+}
+.container .img-img {
+  width: 100%;
+  transform: rotate(180deg);
 }
 .container .fourth-section {
   display: flex;
@@ -121,16 +133,17 @@ h1, h2, h3, h4, h5 {
   padding: 50px;
   height: 200px;
 }
+.container .fourth-section .fourth-section-text {
+  max-width: 90%;
+  margin: 0 50px;
+}
 .container .fourth-section .fourth-section-text .fourth-section-heading {
   margin-bottom: 0;
 }
-.container .fourth-section .fourth-section-text .fourth-section-paragraph {
-  margin: 0;
-  max-width: 100%;
-}
 .container .fourth-section .fourth-section-img img {
-  width: 200px;
-  padding-right: 300px;
+  width: 300px;
+  padding-right: 50px;
+  margin: 0 50px;
 }
 .container .fifth-section {
   background-color: #f6fbff;
@@ -146,16 +159,19 @@ h1, h2, h3, h4, h5 {
 }
 .container .fifth-section .fifth-section-text {
   padding-right: 20px;
+  margin-left: 50px;
+  max-width: 120%;
 }
 .container .fifth-section .fifth-section-text .fifth-section-heading {
   margin-bottom: 0;
+  padding-bottom: 20px;
 }
 .container .fifth-section .fifth-section-text .fifth-section-paragraph {
   margin: 0;
-  max-width: 40%;
 }
 .container .fifth-section .fifth-section-img img {
-  width: 200px;
+  width: 300px;
+  margin: 0 50px;
 }
 .container .fifth-img {
   transform: rotate(180deg);
@@ -181,18 +197,24 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 .container .container-footer .footer-all .footer-logo {
-  width: 100px;
+  width: 70%;
 }
 .container .container-footer .footer-all .footer-left {
   width: 25%;
   margin-right: 100px;
   margin-left: 2px;
+  height: 200px;
 }
 .container .container-footer .footer-all .footer-right {
-  width: 35%;
+  width: 30%;
+  margin: 10px;
+  height: 200px;
+}
+.container .container-footer .footer-all .footer-right .footer-right-text p {
+  max-width: 60%;
 }
 .container .container-footer .footer-all .footer-right h4 {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
   top: 5px;
 }
@@ -201,7 +223,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 5px;
   height: 22px;
   font-size: 8px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 .container .container-footer .footer-all .footer-contact img {
   width: 8px;
@@ -224,4 +246,45 @@ h1, h2, h3, h4, h5 {
 }
 .container .container-footer .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 694px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .container-top {
+    display: flex;
+  }
+  .container .container-top .nav-image {
+    width: 60%;
+  }
+  .container .container-top .try-free {
+    width: 140px;
+    font-size: 15px;
+    padding: 5px 10px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    font-weight: 600;
+  }
+  .container-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container-sections .top-heading {
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .container-sections .top-paragraph {
+    line-height: 33px;
+    padding: 50px;
+  }
 }/*# sourceMappingURL=index.css.map */
