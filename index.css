@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
+  width: 100%;
   /* Sixth Section styling*/
 }
 .container .container-top {
@@ -49,12 +50,10 @@ h1, h2, h3, h4, h5 {
   justify-content: center;
   margin: 80px 20px;
   text-align: center;
-}
-.container .first-section .first-section-text .top-heading {
-  font-size: xx-large;
+  width: 100%;
 }
 .container .first-section .first-section-text .top-paragraph {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 .container .first-section .first-section-text .top-others-btn {
@@ -63,7 +62,7 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 .container .first-section .first-section-img img {
-  max-width: 100%;
+  width: 100%;
   width: 600px;
 }
 .container .second-section {
@@ -104,6 +103,7 @@ h1, h2, h3, h4, h5 {
   padding-top: 0;
   margin-top: -7px;
   margin-bottom: -7px;
+  width: 90%;
 }
 .container .third-section .third-section-text {
   padding-right: 20px;
@@ -279,12 +279,19 @@ h1, h2, h3, h4, h5 {
     text-align: center;
   }
   .container-sections .top-heading {
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 50px;
+    font-size: 50px;
   }
   .container-sections .top-paragraph {
-    line-height: 33px;
-    padding: 50px;
+    line-height: 43px;
+    font-size: 35px;
+    padding: 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .container-sections .top-others-btn {
+    width: 150px;
   }
 }/*# sourceMappingURL=index.css.map */

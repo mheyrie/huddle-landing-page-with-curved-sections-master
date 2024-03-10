@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5{
    }
 
 .container{
-
+    width: 100%;
     // Nav Styling
     .container-top{
     display:  flex;
@@ -36,6 +36,7 @@ h1,h2,h3,h4,h5{
     justify-content: space-between;
     align-items: center;
     margin: 50px;
+    
 
     .try-free{
         background-color: white;
@@ -56,14 +57,14 @@ h1,h2,h3,h4,h5{
         justify-content: center;
         margin: 80px 20px;
         text-align: center;
+        width: 100%;
 
         .first-section-text{
-                .top-heading{
-                    font-size: xx-large;
-                }
+                
                 .top-paragraph{
-                    width: 40%;
+                    width: 50%;
                     margin: 0 auto;
+                    
                 }
                 .top-others-btn{
                     margin: 50px;
@@ -73,7 +74,7 @@ h1,h2,h3,h4,h5{
         }
 
         .first-section-img img{
-            max-width: 100%;
+            width: 100%;
             width: 600px;
         }
     }
@@ -125,6 +126,7 @@ h1,h2,h3,h4,h5{
         padding-top: 0;
         margin-top: -7px;
         margin-bottom: -7px;
+        width: 90%;
 
         .third-section-text{
             padding-right: 20px;
@@ -323,8 +325,10 @@ h1,h2,h3,h4,h5{
             display: flex;
             flex-direction: column;
             
+            
             .container-top{
                 display: flex;
+                // width: 110%;
 
                 .nav-image{
                     width: 60%;
@@ -351,15 +355,21 @@ h1,h2,h3,h4,h5{
 
 
                     .top-heading{
-                        max-width: 60%; 
+                        max-width: 80%; 
                         margin: auto;
                         margin-bottom: 50px;
-                              
+                        font-size: 50px;
                     }
 
                     .top-paragraph{
-                        line-height: 33px;
-                        padding: 50px;
+                        line-height: 43px;
+                        font-size: 35px;
+                        padding: 20px;
+                        width: fit-content;
+                    }
+
+                    .top-others-btn{
+                        width: 150px;
                     }
 
         }
