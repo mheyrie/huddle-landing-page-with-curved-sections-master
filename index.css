@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-  width: 100%;
   /* Sixth Section styling*/
 }
 .container .container-top {
@@ -53,7 +52,7 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 .container .first-section .first-section-text .top-paragraph {
-  width: 50%;
+  width: 500px;
   margin: 0 auto;
 }
 .container .first-section .first-section-text .top-others-btn {
