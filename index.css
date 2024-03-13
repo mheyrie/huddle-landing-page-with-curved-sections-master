@@ -249,26 +249,23 @@ h1, h2, h3, h4, h5 {
 
 @media only screen and (max-width: 694px) {
   .container {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    padding: 0 20px;
+  }
+  .container-top {
     flex-direction: column;
+    align-items: center;
   }
-  .container .container-top {
-    display: flex;
-  }
-  .container .container-top .nav-image {
-    width: 60%;
-  }
-  .container .container-top .try-free {
+  .try-free {
     width: 140px;
-    font-size: 15px;
+    font-size: 9px;
     padding: 5px 10px;
     height: 40px;
     text-align: center;
     box-shadow: 0 0 5px;
     font-weight: 600;
+  }
+  img {
+    width: 100%; /* Ensure images take full width on smaller screens */
   }
   .container-sections {
     display: flex;

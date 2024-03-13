@@ -317,35 +317,30 @@ h1,h2,h3,h4,h5{
 }
 
 
-@media only screen and (max-width: 694px){
-        .container{
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            
-            
-            .container-top{
-                display: flex;
-                // width: 110%;
+@media only screen and (max-width: 694px) {
+    .container {
+        padding: 0 20px;
+    }
 
-                .nav-image{
-                    width: 60%;
-            }
+    .container-top {
+        flex-direction: column;
+        align-items: center;
+    }
 
-                .try-free{
-                    width: 140px;
-                    font-size: 15px;
-                    padding: 5px 10px;
-                    height: 40px;
-                    text-align: center;
-                    box-shadow: 0 0 5px;
-                    font-weight: 600;
-                }
-                
-            }
-        }
+    .try-free {
+        width: 140px;
+        font-size: 9px;
+        padding: 5px 10px;
+        height: 40px;
+        text-align: center;
+        box-shadow: 0 0 5px;
+        font-weight: 600;
+    }
+
+    img {
+        width: 100%; /* Ensure images take full width on smaller screens */
+    }
+
            .container-sections{
                     display: flex;
                     flex-direction: column;
