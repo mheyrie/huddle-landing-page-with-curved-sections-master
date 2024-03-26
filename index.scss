@@ -1,7 +1,13 @@
 // General Styling
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5{
@@ -32,10 +38,10 @@ h1,h2,h3,h4,h5{
     // Nav Styling
     .container-top{
     display:  flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 50px;
+    
     
 
     .try-free{
@@ -225,6 +231,10 @@ h1,h2,h3,h4,h5{
         text-align: center;
         padding-bottom: 90px;
         padding-top: 90px;
+
+        .sixth-section-button{
+            margin-top: 50px;
+        }
     }
 
     //Footer styling
@@ -235,7 +245,7 @@ h1,h2,h3,h4,h5{
         padding-top: 50px;
         color: #fff;
         font-size: 10px;
-        height: 300px;
+        height: 400px;
         
 
         .footer-all{
@@ -243,6 +253,7 @@ h1,h2,h3,h4,h5{
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            line-height: 30px;
             
                         
             .footer-logo{
@@ -252,14 +263,18 @@ h1,h2,h3,h4,h5{
 
             .footer-left{
                 width: 250px;
-                margin-right: 100px;
-                margin-left: 2px;
+                margin-right: 80px;
+                margin-left: 15px;
                 height: 200px;
+                
+                p{
+                    line-height: 15px;
+                }
             }
 
 
             .footer-right{
-                width: 500px;
+                // width: 500px;
                 margin: 10px;
                 height: 200px;
 
@@ -272,12 +287,22 @@ h1,h2,h3,h4,h5{
                     top: 5px
                     
                 }
+                .newsletter-text-input{
+                    border-radius: 5px;
+                    height: 30px;
+                    width: 300px;
+                    margin-right: 25px;
+                }
+                p{
+                    line-height: 15px;
+                }
                 .subscribe-btn{
+                    margin-top: 30px;
                     width: 70px;
                     border-radius: 5px;
-                    height: 22px;
+                    height: 30px;
                     font-size: 8px;
-                    margin-left: 25px;
+                    
                 }
             }
 
@@ -317,9 +342,11 @@ h1,h2,h3,h4,h5{
 }
 
 
+
 @media only screen and (max-width: 694px) {
     .container {
-        padding: 0 20px;
+        padding: 0 20px; 
+        min-width: 500px;
     }
 
     .container-top {
@@ -410,42 +437,58 @@ h1,h2,h3,h4,h5{
                         margin-top: 60px;
                     }
 
-
+                    .sixth-section .btn{
+                        margin-top: 30px;
+                    }
                    
 
                     
         }
 
-        .container-footer{
-            height: fit-content;
-            
-        }
+       
+        
         .footer-all{
-            display: flex;
             flex-direction: column-reverse;
-            font-size: 3px;
+            font-size: 10px;
+            height: 300px;
+            padding: 10px;
             justify-content: center;
             align-items: center;
-            font-size: 10px;
-
-            height: 250px;
             
             .footer-right{
-                display: flex;
-                flex-direction: column;
-                margin: 50px;
-                text-align: center;
-
-                p{
-                    text-align: center;
-                    
-                }
-            }
-
-            .footer-right-text{
+                // display: flex;
+                // flex-direction: column;
+                // border: 1px red solid;
                 
-                width: fit-content;
+                
+                
+
+                .text-subscribe{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: flex-start;
+                    
+
+                    .newsletter-text-input{
+                        width: 300px;
+                        margin-top: 10px;
+                        height: 40px;
+                    }
+                    .subscribe-btn{
+                        margin-left: 230px;
+                        
+                    }
+                }
+               
             }
+
+            .footer-left{
+                width: 100px;
+
+            }
+
+                      
         }
        
     }

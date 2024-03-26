@@ -1,6 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -30,7 +37,6 @@ h1, h2, h3, h4, h5 {
 }
 .container .container-top {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 50px;
@@ -179,6 +185,9 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 90px;
   padding-top: 90px;
 }
+.container .sixth-section .sixth-section-button {
+  margin-top: 50px;
+}
 .container .container-footer {
   background-color: #00252e;
   margin-top: -6px;
@@ -186,25 +195,28 @@ h1, h2, h3, h4, h5 {
   padding-top: 50px;
   color: #fff;
   font-size: 10px;
-  height: 300px;
+  height: 400px;
 }
 .container .container-footer .footer-all {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  line-height: 30px;
 }
 .container .container-footer .footer-all .footer-logo {
   width: 100px;
 }
 .container .container-footer .footer-all .footer-left {
   width: 250px;
-  margin-right: 100px;
-  margin-left: 2px;
+  margin-right: 80px;
+  margin-left: 15px;
   height: 200px;
 }
+.container .container-footer .footer-all .footer-left p {
+  line-height: 15px;
+}
 .container .container-footer .footer-all .footer-right {
-  width: 500px;
   margin: 10px;
   height: 200px;
 }
@@ -216,12 +228,21 @@ h1, h2, h3, h4, h5 {
   margin: 0;
   top: 5px;
 }
+.container .container-footer .footer-all .footer-right .newsletter-text-input {
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  margin-right: 25px;
+}
+.container .container-footer .footer-all .footer-right p {
+  line-height: 15px;
+}
 .container .container-footer .footer-all .footer-right .subscribe-btn {
+  margin-top: 30px;
   width: 70px;
   border-radius: 5px;
-  height: 22px;
+  height: 30px;
   font-size: 8px;
-  margin-left: 25px;
 }
 .container .container-footer .footer-all .footer-contact img {
   width: 8px;
@@ -249,6 +270,7 @@ h1, h2, h3, h4, h5 {
 @media only screen and (max-width: 694px) {
   .container {
     padding: 0 20px;
+    min-width: 500px;
   }
   .container-top {
     flex-direction: column;
@@ -333,30 +355,32 @@ h1, h2, h3, h4, h5 {
   .container-sections .fourth-section-heading {
     margin-top: 60px;
   }
-  .container-footer {
-    height: -moz-fit-content;
-    height: fit-content;
+  .container-sections .sixth-section .btn {
+    margin-top: 30px;
   }
   .footer-all {
-    display: flex;
     flex-direction: column-reverse;
-    font-size: 3px;
+    font-size: 10px;
+    height: 300px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
-    height: 250px;
   }
-  .footer-all .footer-right {
+  .footer-all .footer-right .text-subscribe {
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
-  .footer-all .footer-right p {
-    text-align: center;
+  .footer-all .footer-right .text-subscribe .newsletter-text-input {
+    width: 300px;
+    margin-top: 10px;
+    height: 40px;
   }
-  .footer-all .footer-right-text {
-    width: -moz-fit-content;
-    width: fit-content;
+  .footer-all .footer-right .text-subscribe .subscribe-btn {
+    margin-left: 230px;
+  }
+  .footer-all .footer-left {
+    width: 100px;
   }
 }/*# sourceMappingURL=index.css.map */
